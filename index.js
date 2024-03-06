@@ -4,7 +4,7 @@ import data from "./data/wrong_passport_and_birthday.json" assert { type: "json"
 
 const isDirExist = async (path) => {
   try {
-    await access("path");
+    await access(path);
     return true;
   } catch (e) {
     return false;
